@@ -45,8 +45,9 @@ I'm still struggling to construct the required FSM to identify tokens. So, the f
 - https://github.com/onore-e-42/LeXLuthorAndtheYaccZoo: literally the death of me.
 - https://github.com/jamesotron/lex_luthor: A Lexer in Elixer, reuseable macros for lexical analysis.
 - https://github.com/marques-work/lex-luthor: Javascript Lexer witten in pure JS.
-- https://github.com/lkrieg/lex_luthor: possibly what I need but it's written in such modular fashion that I'd rather build my own racecar and track rather than read the mini-library files he's written. Atleast I finally found a `lexer.h`, that's quite something.
+- https://github.com/lkrieg/lex_luthor: possibly what I need but it's written in such modular fashion that I'd rather build my own racecar and track rather than read the mini-library files he's written. Atleast I finally found a `lexer.h`, that's quite something. I'll be studying this repo in much depth in the days to come.
 - https://github.com/lkrieg/lex_luthor: Found someone who wrote `tokens.h`. Nice!
 - https://github.com/Chaitanya-K/Luthor-Lexical-Analyzer: Smart, really interesting beyond my level sort of thing.
+- https://github.com/evanhackett/Lexical-Analyzer: super analyzer, just what I needed...or so I thought.
 
-Do tell me if you find anything...
+Do tell me if you find anything... a simple lexeme categorizer doesn't need ML, does it?

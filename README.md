@@ -40,7 +40,7 @@ I'm still struggling to construct the required FSM to identify tokens. So, the f
 - https://softwareengineering.stackexchange.com/questions/257757/why-implement-a-lexer-as-a-2d-array-and-a-giant-switch (super relateable answer, symathize greatly with it, but I've not been asked to 2d transition table, that's a super neat idea though)
 
 ## Related Projects on Github
-- michiakig/lexluthor : library to build lexical analyzers
+- [michiakig/lexluthor](https://github.com/michiakig/lexluthor) : library to build lexical analyzers
 - https://github.com/fhur/lexluthor: good looking lexical analysis engine
 - https://github.com/onore-e-42/LeXLuthorAndtheYaccZoo: literally the death of me.
 - https://github.com/jamesotron/lex_luthor: A Lexer in Elixer, reuseable macros for lexical analysis.

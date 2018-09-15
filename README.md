@@ -36,3 +36,8 @@ I'm still struggling to construct the required FSM to identify tokens. So, the f
 - https://stackoverflow.com/questions/23329441/implementing-a-lexer-identifying-tokens-after-creating-dfa
 - https://www.tutorialspoint.com/automata_theory/non_deterministic_finite_automaton.htm
 - https://softwareengineering.stackexchange.com/questions/127889/writing-a-lexer-in-c
+
+## Related Projects on Github
+- https://github.com/michiakig/lexluthor : library to build lexical analyzers
+- https://github.com/fhur/lexluthor: good looking lexical analysis engine
+- https://github.com/onore-e-42/LeXLuthorAndtheYaccZoo: literally the death of me.

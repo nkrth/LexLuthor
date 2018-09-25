@@ -6,13 +6,15 @@ The current `lexer.c` is a hardcoded one. Another one called `lex.c` ~~will be m
 The objective here is to implement a lexer using state machines (believeably, discrete finite automata). The lexical analysis must yield a listing of keywords and identifiers. We are allowed to have a hard array of keywords. For this, I am unable to find any `tokens.h` or `keywords.h` library containing such an in-built list. So, I'll have to list the keywords of each language to analyse by hand. This is tedious and obviously not the preferred way of doing this sort of thing.
 The tokenizer has to made with the logic that keyword and identifiers are character followed by a digit or character and so on.
 
-\>> Lots left to do. Gah! <<
+<center><marquee> \>> Lots left to do. Gah! << </marquee></center>
 
 (25/09) One idea I have is to provide some visualizations of the number of tokens identified. 
 Contrast the word classifcations of the contents of each `sample.txt` input.
 We obviously need to work on actual file handling first.
 
 [*tba wiki*] Yesterday, my friend Reshma Roy gave a talk on Lexical Analysis of English and Vietnamese French. This has opened my eyes to the possibility that beyond programming languages, a lexer has application in everyday linguistic analysis. Perhaps, using word embeddings (with `word2vec`) and such, we would be able to expand the [LexLuthor](nickkartha.github.io/LexLuthor) to be a very general lexer and word classifier. As of now, it only accepts `C` programs, mostly `C99`, and **displays which words are keywords, numbers, identifiers, and relational/logical operators**.
+
+This has been a good one.
 
 ## How to compile and run C programs
 ```bash
@@ -45,6 +47,7 @@ I'm still struggling to construct the required FSM to identify tokens. So, the f
 - Software Engineering StackExchange [//se.SE]
     - [Writing a Lexer in C](https://softwareengineering.stackexchange.com/questions/127889/writing-a-lexer-in-c)
     - [Why Implement a Lexer as a 2D array and a giant switch?](https://softwareengineering.stackexchange.com/questions/257757/why-implement-a-lexer-as-a-2d-array-and-a-giant-switch) (super relateable answer, symathize greatly with it, but I've not been asked to 2d transition table, that's a super neat idea though)
+- Google Search: https://www.google.com/search?q=lexical+analyzer+using+dfa
 
 ## Related Projects on Github
 - [michiakig/lexluthor](https://github.com/michiakig/lexluthor) : library to build lexical analyzers
@@ -62,8 +65,10 @@ Do tell me if you find anything... a simple lexeme categorizer doesn't need ML, 
 ## Credits
 Myself, Rithu Augustine, Rinu Sibi Kurian, Noora Fathima, Rohit Venugopal, Bob Kane. 
 
---
+---
 
-# Watch, Star, Fork, Pull. Contribute to Free and Open Source. Support Linus Torvalds and Richard Stallman!
+**Watch, Star, Fork, Pull. Contribute to Free and Open Source. <br/>
+Support FOSS, Linus Torvalds and Richard Stallman! <br/>
+Fork this repo today!**
 
---
+---

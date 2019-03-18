@@ -32,7 +32,7 @@ $ ./a.out
 Lex programs have extension `.l`
 ```bash
 lex prgm.l
-gcc lex.y.y.c
+gcc lex.yy.c
 ./a.out
 ```
 I don't know. This is what Hareesh sir wrote on the board. I haven't gotten to the lex language part yet.
